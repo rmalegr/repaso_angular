@@ -1,0 +1,40 @@
+<app-navbar></app-navbar>
+<router-outlet></router-outlet>
+
+
+
+<!-- <section *ngIf="post$ | async as postInfo; else loaderOrError">
+    <h1>
+        {{postInfo.title}}
+    </h1>
+</section>
+<ng-template #loaderOrError>
+        <section *ngIf="hassError; else loader">
+            Ha ocurrido un error, refresca la pagina para intentar nuevamente 
+        </section>
+        <ng-template #loader>Loading ......</ng-template>
+</ng-template>
+<label for="texto">Ingrese texto </label>
+<input type="text" [(ngModel)]="data" name="texto" placeholder="Ingrese cualquier cosa "><p>{{data}}</p>
+
+<p>{{valorContador}}</p>
+
+<button (click)="incrementar()">Incrementar</button>
+<button (click)="decrementar()">decrementar</button>
+
+<hr />
+<h5>El mensaje del recibido desde el hijo es: {{mensajeRecibido}}</h5>
+
+<app-app-child (mensajeDesdeHijo)="recibirMensaje($event)"
+(incrementarDedeHijo)="incrementar()"
+(decrementarDedeHijo)="decrementar()"
+></app-app-child>
+
+
+<hr>
+<h1>{{nombre}}</h1>
+<button type="button" (click)="saludar()">Saludar</button>
+
+
+<app-hermano></app-hermano> -->
+
